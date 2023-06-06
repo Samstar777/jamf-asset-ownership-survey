@@ -9,13 +9,13 @@ This script automates the process of conducting a survey through Jamf Pro and po
 
 To use this script, follow the instructions below:
 
-| Step | Description                                                                       |
-|-----:|-----------------------------------------------------------------------------------|
-|     1| Make note of JamfPro API userName and Password                                    |
-|     2| Download script from gitHub Page and upload the same in Jamf Pro                  |
-|     3| Create a Jamf Pro policy and add script to the policy                             |         
-|     4| Modify the global variables section of the script according to your requirements. |
-|     5| Scope the policy as SelfService to test devices with ongoing frequency            |
+| Step | Description                                                                                              |
+|-----:|----------------------------------------------------------------------------------------------------------|
+|     1| Make note of JamfPro API userName and Password                                                           |
+|     2| Download script from gitHub Page and upload the same in Jamf Pro                                         |
+|     3| Create a Jamf Pro policy and add script to the policy                                                    |         
+|     4| Modify the global variables section of the script according to your requirements,refer [Policy Preview](https://github.com/Samstar777/jamf-asset-ownership-survey/blob/b8d5271f42480c67398d7da7fa2df53f6a15daab/Policy%20Preview.png) |
+|     5| Scope the policy as SelfService to test devices with ongoing frequency                                   |
 
 
 The script will perform the following actions:
