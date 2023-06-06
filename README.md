@@ -38,10 +38,10 @@ Jamf Pro account with appropriate privileges to access and update extension attr
 The script provides several global variables that can be customized according to your needs. Here is an overview of the variables and their purpose:
 
   * scriptVersion: Specifies the version of the script.
-  * jssUser: Jamf Pro username used for authentication.
-  * jssPass: Jamf Pro user password.
-  * scriptLog: Location of the script log file.
-  * message: Prompt message displayed to the user during the survey.
+  * jssUser: Jamf Pro API username used for authentication.
+  * jssPass: Jamf Pro API user password.
+  * scriptLog: Location of the script log file (eg /var/log/abc.log).
+  * message: Prompt message displayed to the user during the survey (eg Select Ownership of your Asset).
   * Make sure to set these variables correctly before running the script.
 
 # Troubleshooting
@@ -49,7 +49,7 @@ The script provides several global variables that can be customized according to
 If you encounter any issues or errors while using the script, refer to the following troubleshooting steps:
 
 * Ensure that the Jamf Pro service is available and accessible from the machine running the script.
-* Verify the correctness of the Jamf Pro username and password specified in the script.
+* Verify the correctness of the Jamf Pro API username and password specified in the script.
 * Check the script log file for any error messages or unexpected behavior.
 * Review the script code and comments for any missed configuration steps or syntax errors.
 
