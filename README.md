@@ -16,6 +16,7 @@ To use this script, follow the instructions below:
 |     3| Create a Jamf Pro policy and add script to the policy                                                    |         
 |     4| Modify the global variables section of the script according to your requirements,refer [Policy Preview](https://github.com/Samstar777/jamf-asset-ownership-survey/blob/b8d5271f42480c67398d7da7fa2df53f6a15daab/Policy%20Preview.png) |
 |     5| Scope the policy as SelfService to test devices with ongoing frequency                                   |
+|     6| Create Extension Attribute as shown in [assetType](https://github.com/Samstar777/jamf-asset-ownership-survey/blob/9b78232a241895fd7b8387c3bb5d5016d2f5b979/assetType.png)                                               |
 
 
 The script will perform the following actions:
