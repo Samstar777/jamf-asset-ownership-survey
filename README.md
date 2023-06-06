@@ -59,7 +59,7 @@ Contributions to this project are welcome. If you find any bugs, have suggestion
 
  # License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
 
 # Credits
 
